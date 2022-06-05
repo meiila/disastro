@@ -1,321 +1,299 @@
-body {
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-    font-family: "Monsterrat", sans-serif;
-    background-image: url("sfondo.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    color: #FFFFFF;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* NAV */
-.barra-menu {
-    display: block;
-    display: flex;
-    position: fixed;
-    top: 0;
-    justify-content:space-between;
-    align-content: center;
-    margin: 10px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-radius: 20px;
-    z-index: 10;
-    border: none;
-    width: 98%;
-  }
-  
-  .menu {
-    display: block;
-  }
-  
-  .logo {
-  align-self: flex-start;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-   margin-top: 15px;
-  }
-  
-  .menu ul li {
-    display: inline-block;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 9pt;
-    padding: 5px;
-  }
-  
-  .contenutimenuoroscopo {
-    border-radius: 10px;
-    margin-top: 5px;
-  }
-  
-  .home {
-    padding: 5px;
-  }
-  
-  .segnonav {
-    padding: 5px;
-  }
-  
-  .linkoroscopo {
-    padding: 5px;
-  }
-  
-  .chisiamo {
-    padding: 5px;
-  }
-  
-  .menu ul li a, .linkoroscopo {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .home:hover {
-    background-color: #6633ff;
-  }
-  
-  .linkoroscopo:hover {
-      background-color: #cc99cc;
-  }
-  
-  .segnonav:hover {
-    background-color: #ff6633;
-  }
-  
-  .chisiamo:hover {
-    background-color: #ffcc66;
-  }
-  
-  li a:hover, .linkoroscopo:hover {
-    border-radius: 10px;
-  }
-  
-  li.menuoroscopo {
-    display: inline-block;
-  }
-  
-  .contenutimenuoroscopo {
-    display: none;
-    position: absolute;
-    background-color: #cc99cc;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .contenutimenuoroscopo a {
-    color: #6633ff;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .contenutimenuoroscopo a:hover {
-    background-color: #f1f1f1;
-  color: #cc99cc;
-  font-weight: bold;
-  }
-  
-  .menuoroscopo:hover .contenutimenuoroscopo {
-    display: block;
-  }
-  
-  .iconamenu {
-    display: none;
-  }
+body {
+  background-image: url('sfondogiallo.png');
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+    background-size: cover;
+     background-size:100% 100%;
+     background-attachment: fixed;
+}
 
-/* PROFILO */
+.barra-menu {
+  display: block;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content:space-between;
+  align-content: center;
+  margin: 10px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 20px;
+  z-index: 10;
+  border: none;
+  width: 98%;
+}
+
+.menu {
+  display: block;
+}
+
+.logo {
+align-self: flex-start;
+}
+
+.menu ul {
+  list-style-type: none;
+ margin-top: 15px;
+}
+
+.menu ul li {
+  display: inline-block;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 9pt;
+  padding: 5px;
+}
+
+.contenutimenuoroscopo {
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.home {
+  padding: 5px;
+}
+
+.segno {
+  padding: 5px;
+}
+
+.linkoroscopo {
+  padding: 5px;
+}
+
+.chisiamo {
+  padding: 5px;
+}
+
+.menu ul li a, .linkoroscopo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home:hover {
+  background-color: #6633ff;
+}
+
+.linkoroscopo:hover {
+    background-color: #cc99cc;
+}
+
+.segno:hover {
+  background-color: #ff6633;
+}
+
+.chisiamo:hover {
+  background-color: #ffcc66;
+}
+
+li a:hover, .linkoroscopo:hover {
+  border-radius: 10px;
+}
+
+li.menuoroscopo {
+  display: inline-block;
+}
+
+.contenutimenuoroscopo {
+  display: none;
+  position: absolute;
+  background-color: #cc99cc;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.contenutimenuoroscopo a {
+  color: #6633ff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.contenutimenuoroscopo a:hover {
+  background-color: #f1f1f1;
+color: #cc99cc;
+font-weight: bold;
+}
+
+.menuoroscopo:hover .contenutimenuoroscopo {
+  display: block;
+}
+
+.iconamenu {
+  display: none;
+}
+
+.contenuti{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
 
 .top {
-    margin-top: 5%;
-    margin-bottom: 0%;
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 2%;
 }
 
-.immagine {
-    width:25%;
-    color:#FFFFFF;
-}
-
-.pf {
-    width: 300px;
-    height: 300px;
-    align-items: center;
-}
-
-.nomesegno {
-    color: #ffffff;
-    font-size: 36pt;
-    line-height: 20pt;
-}
-
-.testi {
-    display: inline;
-}
-
-.t2 {
-    display: flex;
-}
-
-.t1 {
-    padding-left:20px;
-    padding-right: 20px;
-    font-size:15pt;
-    line-height: 24pt;
+.testi{
+  color: white;
+  margin-left: 70px;
 }
 
 .bio {
-    display: flex;
-    justify-content: start;
-    padding-top: 20px;
-    margin-left: 28%;
-    font-size: 14pt;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  justify-content: center;
+  font-size: 14pt;
 }
 
-/* POST */
-
 .contenitorepost {
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  flex-wrap: wrap;
+}
+
+.nomesegno {
+      font-size: 36pt;
+}
+
+.t2 {
+  display: flex;
+}
+
+.t1 {
+padding: 20px 20px 10px 0px;
+font-size:15pt;
 }
 
 .colore {
-  height: 250px;
-  width: 250px;
   background-color: rgb(62, 62, 62);
+  width: 250px;
+  height: 250px;
   border-radius: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin: 0px;
 }
 
 .titolo1 {
-  position: relative;
-  top: 150px;
-  left: 20px;
-  padding: 10px 10px;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 14pt;
-  color:#FFFFFF;
-  align-self: flex-end;
+font-size: 13pt;
+padding-top: 160px;
+padding-left: 40px;
 }
 
-.pietra {
-  height: 250px;
-  width: 250px;
+.pietra{
   background-color: #6633ff;
+  width: 250px;
+  height: 250px;
   border-radius: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin: 0px;
 }
 
 .titolo2 {
-  position: relative;
-  top: 150px;
-  left: 20px;
-  padding: 10px 10px;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 14pt;
-  color:#FFFFFF;
-  align-self: flex-end;
+font-size: 13pt;
+padding-top: 160px;
+padding-left: 40px;
 }
 
+
 .corpo {
-  height: 250px;
-  width: 250px;
   background-color: #cc99cc;
+  width: 250px;
+  height: 250px;
   border-radius: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin: 0px;
 }
 
 .titolo3 {
-  position: relative;
-  top: 150px;
-  left: 20px;
-  padding: 10px 10px;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 14pt;
-  color:#FFFFFF;
-  align-self: flex-end;
+  font-size: 13pt;
+  padding-top: 160px;
+  padding-left: 30px;
 }
 
-.oroscopomeseanno {
-  width: 100%;
-  display: block;
-  position: relative;
-  align-items: center;
-  margin-left: 21%;
-  margin-top: 100px;
+
+.oroscopomeseanno{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 100px;
+margin-bottom: 100px;
 }
 
-a:link { 
-  text-decoration: none; 
-}
-
-a:visited { 
-  text-decoration: none; 
-}
-
-a:hover { 
-  text-decoration: none; 
-}
-
-a:active { 
-  text-decoration: none; 
-}
-
-.rettangolo1 {
-  text-align: center;
-  width: 400px;
-  height: 50px;
+.testo1 a {
+  text-decoration: none;
+  color: white;
   background-color: #ff6633;
   border-radius: 20px;
-  font-size: 12pt;
-  color:#FFFFFF;
+font-size: 12pt;
+padding: 20px 10px;
+margin: 20px 10px;
 }
 
-.testo1 {
-  position: relative;
-  top: 5px;
-  left: 20px;
-  padding: 10px 10px;
-  text-align: left;
-  font-size: 12pt;
-  color:#FFFFFF;
+footer {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  justify-content:space-between;
+  color: white;
 }
 
-/*MQ MOBILE */
+.piede{
+  display: flex;
+  justify-content: flex-start;
+}
 
-@media only screen and (max-width: 400px) {
+.logofooter{
+    padding: 30px 0px 40px 30px;
+}
 
-    body {
-      background-image: url('sfondobiancoverticale.png');
-    }
-  
+.email {
+  font-size: 10pt;
+  margin-left: 40px;
+  padding: 50px 0px 20px;
+  line-height: 1.1;
+}
+
+.email h4 {
+  color: #cc99cc;
+}
+
+.diritti {
+      font-size: 8pt;
+      padding: 160px 20px 20px 0px;
+}
+
+@media screen and (max-width: 430px) {
+
+  body {
+    background-image: url('sfondogialloverticale.png');
+  }
+
   div .menu {
     display: none;
   }
-  
+
   .iconamenu {
     display: block;
     align-items: center;
@@ -323,19 +301,19 @@ a:active {
     margin: 5px;
     border-radius: 10px;
   }
-  
+
   .bottonemenu {
     background: none;
     border: none;
     margin-top: 4px;
   }
-  
+
   .barra-menu{
     justify-content: flex-start;
     margin-left: 15px;
     margin-right: 15px;
   }
-  
+
   div .menu {
   position: absolute;
   margin: 50px 5px;
@@ -343,34 +321,100 @@ a:active {
   background-color: #6633ff;
   border-radius: 10px;
   }
-  
+
   .menu ul li {
     display: list-item;
     padding: 5px 10px;
   }
-  
+
   .menu ul li a {
    font-size: 12pt;
   }
-  
+
   .contenutimenuoroscopo {
     top: 85px;
     margin-left: 125px;
     border-radius: 10px;
-  
+
   }
-  
+
   .contenutimenuoroscopo li {
   border-radius: 10px;
   }
-  
+
   .contenutimenuoroscopo .mese {
     font-size: 12pt;
     padding: 8px 10px 8px 10px;
   }
-  
+
   .contenutimenuoroscopo .anno {
     font-size: 12pt;
     padding: 8px 10px 8px 10px;
   }
-}  
+
+  .logofooter{
+      padding: 30px 0px 0px 10px;
+  }
+
+  .email {
+    margin-left: 10px;
+    font-size: 8pt;
+  }
+
+  .diritti {
+        padding: 140px 10px 10px 5px;
+        font-size: 7pt;
+  }
+
+.pf {
+  width: 120px;
+  height: 120px;
+}
+
+.testi {
+  margin-left: 30px;
+}
+
+.nomesegno {
+  font-size: 20pt;
+}
+
+.t1 {
+  font-size: 11pt;
+}
+
+.bio {
+  font-size: 13pt;
+}
+
+.colore {
+  margin-bottom: 20px;
+}
+
+.pietra {
+  margin-bottom: 20px;
+}
+
+.rettangolo1 {
+  margin-top: 60px;
+}
+
+.descrizione {
+  top: -40px;
+}
+
+.logofooter{
+    padding: 30px 0px 0px 10px;
+}
+
+.email {
+  margin-left: 10px;
+  font-size: 8pt;
+}
+
+.diritti {
+      padding: 140px 10px 10px 5px;
+      font-size: 7pt;
+}
+
+}

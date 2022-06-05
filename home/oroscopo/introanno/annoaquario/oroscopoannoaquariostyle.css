@@ -229,107 +229,117 @@ h3 {
 
 
 footer {
-  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  justify-content:space-between;
+  color: white;
 }
 
-@media only screen and (max-width: 400px) {
+.piede{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logofooter{
+    padding: 30px 0px 40px 30px;
+}
+
+.email {
+  font-size: 10pt;
+  margin-left: 40px;
+  padding: 50px 0px 20px;
+  line-height: 1.1;
+}
+
+.email h4 {
+  color: #cc99cc;
+}
+
+.diritti {
+      font-size: 8pt;
+      padding: 160px 20px 20px 0px;
+}
+
+@media screen and (max-width: 430px) {
 
   body {
     background-image: url('sfondoviolaverticale.png');
   }
 
-div .menu {
-  display: none;
-}
-
-.iconamenu {
-  display: block;
-  align-items: center;
-  justify-content: flex-end;
-  margin: 5px;
-  border-radius: 10px;
-}
-
-.bottonemenu {
-  background: none;
-  border: none;
-  margin-top: 4px;
-}
-
-.barra-menu{
-  justify-content: flex-start;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-div .menu {
-position: absolute;
-margin: 50px 5px;
-padding: 15px 15px;
-background-color: #6633ff;
-border-radius: 10px;
-}
-
-.menu ul li {
-  display: list-item;
-  padding: 5px 10px;
-}
-
-.menu ul li a {
- font-size: 12pt;
-}
-
-.contenutimenuoroscopo {
-  top: 85px;
-  margin-left: 125px;
-  border-radius: 10px;
-
-}
-
-.contenutimenuoroscopo li {
-border-radius: 10px;
-}
-
-.contenutimenuoroscopo .mese {
-  font-size: 12pt;
-  padding: 8px 10px 8px 10px;
-}
-
-.contenutimenuoroscopo .anno {
-  font-size: 12pt;
-  padding: 8px 10px 8px 10px;
-}
-
-.titolosegno {
-  padding: 30px 30px 0px 30px;
-}
-
-.dati {
-  padding: 0px 0px 0px 20px;
-}
-
-  .icona img {
-    width: 100px;
-    height: 100px;
+  div .menu {
+    display: none;
   }
 
-.dati h2 {
-  font-size: 26pt;
-}
+  .iconamenu {
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    border-radius: 10px;
+  }
 
-.dati h1 {
-  font-size: 14pt;
-}
+  .bottonemenu {
+    background: none;
+    border: none;
+    margin-top: 4px;
+  }
 
-.container .card {
-  margin-top: 80px;
-  width: 300px;
-  height: 200px;
-}
+  .barra-menu{
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-.container .card .image {
-  width : 250px;
-}
+  div .menu {
+  position: absolute;
+  margin: 50px 5px;
+  padding: 15px 15px;
+  background-color: #6633ff;
+  border-radius: 10px;
+  }
+
+  .menu ul li {
+    display: list-item;
+    padding: 5px 10px;
+  }
+
+  .menu ul li a {
+   font-size: 12pt;
+  }
+
+  .contenutimenuoroscopo {
+    top: 85px;
+    margin-left: 125px;
+    border-radius: 10px;
+
+  }
+
+  .contenutimenuoroscopo li {
+  border-radius: 10px;
+  }
+
+  .contenutimenuoroscopo .mese {
+    font-size: 12pt;
+    padding: 8px 10px 8px 10px;
+  }
+
+  .contenutimenuoroscopo .anno {
+    font-size: 12pt;
+    padding: 8px 10px 8px 10px;
+  }
+
+  .logofooter{
+      padding: 30px 0px 0px 10px;
+  }
+
+  .email {
+    margin-left: 10px;
+    font-size: 8pt;
+  }
+
+  .diritti {
+        padding: 140px 10px 10px 5px;
+        font-size: 7pt;
+  }
