@@ -5,8 +5,12 @@
 }
 
 body {
-  background-color: black;
-  font-family: 'Montserrat', sans-serif;
+    background-image: url('sfondobianco.png');
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+      background-size: cover;
+       background-size:100% 100%;
+       background-attachment: fixed;
 }
 
 .barra-menu {
@@ -620,7 +624,46 @@ p {
   -ms-transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 400px) {
+footer {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  justify-content:space-between;
+  color: white;
+}
+
+.piede{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logofooter{
+    padding: 30px 0px 40px 30px;
+}
+
+.email {
+  font-size: 10pt;
+  margin-left: 40px;
+  padding: 50px 0px 20px;
+  line-height: 1.1;
+}
+
+.email h4 {
+  color: #cc99cc;
+}
+
+.diritti {
+      font-size: 8pt;
+      padding: 160px 20px 20px 0px;
+}
+
+
+@media only screen and (max-width: 430px) {
+
+  body {
+      background-image: url('sfondobiancoverticale.png');
+}
 
 .titolo h1 {
   font-size: 25pt;
@@ -725,6 +768,8 @@ p {
   display: none;
 }
 
+
+
 div .menu {
   display: none;
 }
@@ -786,5 +831,41 @@ border-radius: 10px;
   font-size: 12pt;
   padding: 8px 10px 8px 10px;
 }
+
+.logofooter{
+    padding: 30px 0px 0px 10px;
+}
+
+.email {
+  margin-left: 10px;
+  font-size: 8pt;
+}
+
+.diritti {
+      padding: 140px 10px 10px 5px;
+      font-size: 7pt;
+}
+
+
+.email {
+  margin-left: 10px;
+}
+
+  .email p {
+    font-size: 8pt;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .diritti p {
+        padding: 30px 10px 10px 5px;
+        font-size: 7pt;
+        text-align: left;
+            font-weight: normal;
+  }
+
+  a {
+    text-decoration: none;
+  }
 
 }
