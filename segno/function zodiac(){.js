@@ -18,7 +18,7 @@ function zodiac(){
       a.appendChild(link);
       a.href = "aquario/index.html";
       a.style.textDecoration="none";
-      document.body.appendChild(a);
+      document.getElementById("empty").appendChild(a);
      }
  
 
@@ -36,7 +36,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "pesci/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
    
      }
 
@@ -55,7 +55,7 @@ function zodiac(){
        a.appendChild(link);
        a.href = "ariete/index.html";
        a.style.textDecoration="none";
-       document.body.appendChild(a);
+       document.getElementById("empty").appendChild(a);
       
     }
    
@@ -72,7 +72,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "toro/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
        
      }
    
@@ -90,7 +90,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "gemelli/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
       
      }
    
@@ -107,7 +107,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "cancro/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
       
      }
      if (mese == 7&& giorno >= 23 || mese == 8 && giorno <= 22){
@@ -123,7 +123,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "leone/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
             
      }
      if (mese == 8 && giorno >= 23 || mese == 9 && giorno <= 22){
@@ -139,7 +139,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "vergine/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
 
           }
 
@@ -157,10 +157,9 @@ function zodiac(){
         a.appendChild(link);
         a.href = "bilancia/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
 
      }
-
 
      if (mese == 10 && giorno >= 23|| mese == 11 && giorno <= 21){
         result = ("Scorpione");
@@ -175,8 +174,8 @@ function zodiac(){
         a.appendChild(link);
         a.href = "scorpione/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
-          }
+        document.getElementById("empty").appendChild(a);
+      }
 
      if (mese == 11 && giorno >= 22 || mese == 12 && giorno <= 21){
          result = ("Sagittario");
@@ -191,7 +190,7 @@ function zodiac(){
         a.appendChild(link);
         a.href = "sagittario/index.html";
         a.style.textDecoration="none";
-        document.body.appendChild(a);
+        document.getElementById("empty").appendChild(a);
 
          }
    
@@ -209,7 +208,7 @@ function zodiac(){
       a.appendChild(link);
       a.href = "capricorno/index.html";
       a.style.textDecoration="none";
-      document.body.appendChild(a);
+      document.getElementById("empty").appendChild(a);
       
      }
      
