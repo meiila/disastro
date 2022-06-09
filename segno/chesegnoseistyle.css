@@ -188,6 +188,18 @@ display: block;
 display: none;
 }
 
+.scopri {   
+text-decoration: none;
+color: white;
+background-color: #ff6633;
+border-radius: 20px;
+font-size: 18pt;
+font-weight: bold;
+line-height: 60pt;
+padding: 20px 10px;
+margin: 20px 10px;
+}
+
 footer {
   display: flex;
   position: absolute;
