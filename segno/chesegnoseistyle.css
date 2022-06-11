@@ -42,20 +42,20 @@ background-size:100% 100%;
   border: none;
   width: 98%;
   }
-  
+
   .menu {
   display: block;
   }
-  
+
   .logo {
   align-self: flex-start;
   }
-  
+
   .menu ul {
   list-style-type: none;
   margin-top: 15px;
   }
-  
+
   .menu ul li {
   display: inline-block;
   justify-content: flex-end;
@@ -63,58 +63,58 @@ background-size:100% 100%;
   font-size: 9pt;
   padding: 5px;
   }
-  
+
   .contenutimenuoroscopo {
   border-radius: 10px;
   margin-top: 5px;
   }
-  
+
   .home {
   padding: 5px;
   }
-  
+
   .segno {
   padding: 5px;
   }
-  
+
   .linkoroscopo {
   padding: 5px;
   }
-  
+
   .chisiamo {
   padding: 5px;
   }
-  
+
   .menu ul li a, .linkoroscopo {
   color: white;
   text-decoration: none;
   font-weight: bold;
   }
-  
+
   .home:hover {
   background-color: #6633ff;
   }
-  
+
   .linkoroscopo:hover {
   background-color: #cc99cc;
   }
-  
+
   .segno:hover {
   background-color: #ff6633;
   }
-  
+
   .chisiamo:hover {
   background-color: #ffcc66;
   }
-  
+
   li a:hover, .linkoroscopo:hover {
   border-radius: 10px;
   }
-  
+
   li.menuoroscopo {
   display: inline-block;
   }
-  
+
   .contenutimenuoroscopo {
   display: none;
   position: absolute;
@@ -122,7 +122,7 @@ background-size:100% 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   }
-  
+
   .contenutimenuoroscopo a {
   color: #6633ff;
   padding: 12px 16px;
@@ -130,17 +130,17 @@ background-size:100% 100%;
   display: block;
   text-align: left;
   }
-  
+
   .contenutimenuoroscopo a:hover {
   background-color: #f1f1f1;
   color: #cc99cc;
   font-weight: bold;
   }
-  
+
   .menuoroscopo:hover .contenutimenuoroscopo {
   display: block;
   }
-  
+
   .iconamenu {
   display: none;
   }
@@ -204,7 +204,7 @@ padding: 10px;
 text-align: center;
 }
 
-.scopri {  
+.scopri {
 text-decoration: none;
 color: white;
 background-color: #ff6633;
@@ -239,25 +239,31 @@ footer {
     padding: 30px 0px 40px 30px;
 }
 
-.testomail {
+.email {
   font-size: 10pt;
   margin-left: 40px;
-  padding: 0px 0px 20px 0px;
-  text-align: left;
-  line-height: 22pt;
+  padding: 50px 0px 20px;
+  line-height: 1.1;
 }
 
 .email h4 {
-  padding-top: 50px;
-  padding-left: 40px;
-  font-size: 10pt;
   color: #cc99cc;
-  line-height: 22pt;
 }
 
-.diritti p{
+.diritti {
       font-size: 8pt;
       padding: 160px 20px 20px 0px;
+}
+
+.email p {
+  font-size: 10pt;
+  text-align: left;
+}
+
+.diritti p {
+      padding: 0px 10px 10px 5px;
+      font-size: 8pt;
+      text-align: left;
 }
 
 @media screen and (max-width: 435px) {
@@ -286,8 +292,8 @@ footer {
 
   .barra-menu{
     justify-content: flex-start;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   div .menu {
@@ -348,5 +354,5 @@ footer {
   }
 
 h1 {
-  font-size: 55pt; 
+  font-size: 55pt;
 }
