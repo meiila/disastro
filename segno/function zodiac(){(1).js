@@ -12,8 +12,17 @@ function zodiac(){
       document.getElementById("output").style.fontSize ="50pt";
       document.getElementById("output").style.fontWeight ="bold";
    
+      var a =document.createElement('a');
+      a.className ='scopri';
+      var link = document.createTextNode("SCOPRI");
+      a.appendChild(link);
+      a.href = "aquario/index.html";
+      a.style.textDecoration="none";
+      document.getElementById("empty").appendChild(a);
      }
  
+
+     
      if (mese == 2&& giorno >= 19 || mese == 3&& giorno <= 20){
         result = ("Pesci");
         document.getElementById("photo").innerHTML="<img src='pesci.png'width=20%>";
@@ -21,13 +30,32 @@ function zodiac(){
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
        
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "pesci/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
+   
      }
+
+
+
     if (mese == 3&& giorno >= 21 || mese == 4 && giorno <= 19){
         result = ("Ariete");
        document.getElementById("photo").innerHTML="<img src='ariete.png'width=20%>";
        document.getElementById("output").style.color ="#ff6633";
        document.getElementById("output").style.fontSize ="50pt";
        document.getElementById("output").style.fontWeight ="bold";
+
+       var a =document.createElement('a');
+       a.className ='scopri';
+       var link = document.createTextNode("SCOPRI");
+       a.appendChild(link);
+       a.href = "ariete/index.html";
+       a.style.textDecoration="none";
+       document.getElementById("empty").appendChild(a);
       
     }
    
@@ -38,6 +66,13 @@ function zodiac(){
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
         
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "toro/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
        
      }
    
@@ -49,6 +84,13 @@ function zodiac(){
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
       
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "gemelli/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
       
      }
    
@@ -58,6 +100,14 @@ function zodiac(){
         document.getElementById("output").style.color ="#6633ff";
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
+
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "cancro/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
       
      }
      if (mese == 7&& giorno >= 23 || mese == 8 && giorno <= 22){
@@ -66,6 +116,14 @@ function zodiac(){
         document.getElementById("output").style.color ="#ff6633";
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
+
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "leone/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
             
      }
      if (mese == 8 && giorno >= 23 || mese == 9 && giorno <= 22){
@@ -74,7 +132,18 @@ function zodiac(){
         document.getElementById("output").style.color ="#ffcc66";
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
+
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "vergine/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
+
           }
+
+
      if (mese == 9&& giorno >= 23 || mese == 10&& giorno <= 22){
        result = ("Bilancia");
         document.getElementById("photo").innerHTML="<img src='bilancia.png'width=20%>";
@@ -82,20 +151,47 @@ function zodiac(){
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
          
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "bilancia/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
+
      }
+
      if (mese == 10 && giorno >= 23|| mese == 11 && giorno <= 21){
         result = ("Scorpione");
         document.getElementById("photo").innerHTML="<img src='scorpione.png'width=20%>";
         document.getElementById("output").style.color ="#6633ff";
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
-          }
+
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "scorpione/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
+      }
+
      if (mese == 11 && giorno >= 22 || mese == 12 && giorno <= 21){
          result = ("Sagittario");
         document.getElementById("photo").innerHTML="<img src='sagittario.png'width=20%>";
         document.getElementById("output").style.color ="#ff6633";
         document.getElementById("output").style.fontSize ="50pt";
         document.getElementById("output").style.fontWeight ="bold";
+
+        var a =document.createElement('a');
+        a.className ='scopri';
+        var link = document.createTextNode("SCOPRI");
+        a.appendChild(link);
+        a.href = "sagittario/index.html";
+        a.style.textDecoration="none";
+        document.getElementById("empty").appendChild(a);
+
          }
    
    if(mese == 12 && giorno >= 22 || mese == 1 && giorno <= 19){
@@ -105,8 +201,18 @@ function zodiac(){
       document.getElementById("output").style.color ="#ffcc66";
       document.getElementById("output").style.fontSize ="50pt";
       document.getElementById("output").style.fontWeight ="bold";
+
+      var a =document.createElement('a');
+      a.className ='scopri';
+      var link = document.createTextNode("SCOPRI");
+      a.appendChild(link);
+      a.href = "capricorno/index.html";
+      a.style.textDecoration="none";
+      document.getElementById("empty").appendChild(a);
       
-     }else if (mese>12||giorno>31){
+     }
+     
+     else if (mese>12||giorno>31){
         alert("Per favore inserisci una data plausibile ");
      }
   document.getElementById("output").innerHTML= result;

@@ -65,7 +65,7 @@ body {
    padding: 5px;
  }
 
- .segno {
+ .segnonav {
    padding: 5px;
  }
 
@@ -91,7 +91,7 @@ body {
      background-color: #cc99cc;
  }
 
- .segno:hover {
+ .segnonav:hover {
    background-color: #ff6633;
  }
 
@@ -179,7 +179,7 @@ header {
 
 /* SLIDER SEGNI CON HOVER */
 
-.segno {
+.segnonascosto {
   color: white;
   text-align: center;
   padding: 10px 0px 0px;
@@ -796,6 +796,17 @@ header{
 .diritti {
       padding: 140px 10px 10px 5px;
       font-size: 7pt;
+}
+
+.segnonascosto {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+
+a {
+  text-decoration: none;
 }
 
 }

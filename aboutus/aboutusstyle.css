@@ -1,17 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-image: url('sfondogiallo.png');
-  font-family: 'Montserrat', sans-serif;
-  background-repeat: no-repeat;
-    background-size: cover;
-     background-size:100% 100%;
-     background-attachment: fixed;
+background-image: url("sfondobianco.png");
+width: auto;
+height: auto;
+font-family: "Monsterrat", sans-serif;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-size:100% 100%;
 }
+
+.intro {
+  margin-top: 100px;
+}
+
+.testointro {
+  text-align: center;
+  padding: 30px 250px 100px 250px;
+}
+
+.noi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.archino{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.testiarcangela {
+  width: 600px;
+  padding-left: 40px;
+}
+
+
+.ale {
+  display: flex;
+  align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.testialessia {
+  width: 600px;
+  padding-left: 40px;
+}
+
+.emi {
+  display: flex;
+  align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.testiemilia {
+  width: 600px;
+  padding-left: 40px;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-size: 60pt;
+}
+
+mark {
+background-color: #ff6633;
+color: white;
+}
+
+h2 {
+color: white;
+}
+
+p {
+color: white;
+font-size: 12pt;
+}
+
 
 .barra-menu {
   display: block;
@@ -134,122 +212,6 @@ font-weight: bold;
   display: none;
 }
 
-.contenuti{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-}
-
-.top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 120px;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 2%;
-}
-
-.testi{
-  color: white;
-  margin-left: 70px;
-}
-
-.bio {
-  color: white;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 5%;
-  justify-content: center;
-  font-size: 14pt;
-}
-
-.contenitorepost {
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
-  flex-wrap: wrap;
-}
-
-.nomesegno {
-      font-size: 36pt;
-}
-
-.t2 {
-  display: flex;
-}
-
-.t1 {
-padding: 20px 20px 10px 0px;
-font-size:15pt;
-}
-
-.colore {
-  background-color: black;
-  width: 250px;
-  height: 250px;
-  border-radius: 20px;
-  margin: 0px;
-}
-
-.titolo1 {
-font-size: 13pt;
-padding-top: 160px;
-padding-left: 40px;
-}
-
-.pietra{
-  background-color: #6633ff;
-  width: 250px;
-  height: 250px;
-  border-radius: 20px;
-  margin: 0px;
-}
-
-.titolo2 {
-font-size: 13pt;
-padding-top: 160px;
-padding-left: 40px;
-}
-
-
-.corpo {
-  background-color: #cc99cc;
-  width: 250px;
-  height: 250px;
-  border-radius: 20px;
-  margin: 0px;
-}
-
-.titolo3 {
-  font-size: 13pt;
-  padding-top: 160px;
-  padding-left: 30px;
-}
-
-
-.oroscopomeseanno{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-margin-top: 100px;
-margin-bottom: 100px;
-}
-
-.testo1 a {
-  text-decoration: none;
-  color: white;
-  background-color: #ff6633;
-  border-radius: 20px;
-font-size: 12pt;
-padding: 20px 10px;
-margin: 20px 10px;
-}
-
 footer {
   display: flex;
   position: absolute;
@@ -268,6 +230,15 @@ footer {
     padding: 30px 0px 40px 30px;
 }
 
+.email h4 {
+  color: #cc99cc;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: 10pt;
+}
+
 .email {
   font-size: 10pt;
   margin-left: 40px;
@@ -275,19 +246,15 @@ footer {
   line-height: 1.1;
 }
 
-.email h4 {
-  color: #cc99cc;
-}
 
 .diritti {
       font-size: 8pt;
       padding: 160px 20px 20px 0px;
 }
-
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 435px) {
 
   body {
-    background-image: url('sfondogialloverticale.png');
+    background-image: url('sfondobiancoverticale.png');
   }
 
   div .menu {
@@ -310,8 +277,8 @@ footer {
 
   .barra-menu{
     justify-content: flex-start;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   div .menu {
@@ -335,7 +302,6 @@ footer {
     top: 85px;
     margin-left: 125px;
     border-radius: 10px;
-
   }
 
   .contenutimenuoroscopo li {
@@ -363,66 +329,67 @@ footer {
 
   .diritti {
         padding: 140px 10px 10px 5px;
-        font-size: 7pt;
   }
 
-.pf {
-  width: 120px;
-  height: 120px;
-}
 
-.testi {
-  margin-left: 30px;
-}
+  .email {
+    margin-left: 10px;
+  }
 
-.nomesegno {
-  font-size: 15pt;
-}
+    .email p {
+      font-size: 8pt;
+      text-align: left;
+      font-weight: normal;
+    }
 
-.t1 {
-  font-size: 10pt;
-}
+    .diritti p {
+          padding: 30px 5px 10px 5px;
+          font-size: 5pt;
+          text-align: left;
+          font-weight: lighter;
+    }
 
-.t2 {
-  font-size: 10pt;
-}
-
-.testo1 a {
-  font-size: 10pt;
-}
-
-.bio {
-  font-size: 13pt;
-}
-
-.colore {
-  margin-bottom: 20px;
-}
-
-.pietra {
-  margin-bottom: 20px;
-}
-
-.rettangolo1 {
-  margin-top: 60px;
-}
-
-.descrizione {
-  top: -40px;
-}
-
-.logofooter{
-    padding: 30px 0px 0px 10px;
-}
-
-.email {
-  margin-left: 10px;
-  font-size: 8pt;
-}
-
-.diritti {
-      padding: 140px 10px 10px 5px;
+    h6 {
       font-size: 7pt;
+    }
+
+h1 {
+  font-size: 45pt;
 }
 
+.archino {
+justify-content: center;
+}
+
+.testointro {
+  text-align: center;
+  padding: 35px 30px 60px 35px;
+  font-size: 11pt;
+}
+
+.ale {
+justify-content: center;
+}
+
+.testiarcangela {
+  width: 300px;
+  padding-left: 0px;
+  padding-top: 30px;
+
+}
+
+.testialessia {
+  width: 300px;
+  padding-left: 0px;
+  padding-top: 30px;
+}
+
+.emi {
+justify-content: center;
+}
+
+.testiemilia {
+  width: 300px;
+  padding-left: 0px;
+  padding-top: 30px;
 }
