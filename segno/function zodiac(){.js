@@ -118,7 +118,7 @@ function zodiac(){
      }
      if (mese == 7&& giorno >= 23 || mese == 8 && giorno <= 22){
          result = ("Leone");
-        document.getElementById("photo").innerHTML="<img src='leone.png'width=20%>";ù
+        document.getElementById("photo").innerHTML="<img src='leone.png'width=20%>";
         photo.className = 'imgsegno';
         document.getElementById("output").style.color ="#ff6633";
         document.getElementById("output").style.fontSize ="50pt";
@@ -133,6 +133,7 @@ function zodiac(){
         document.getElementById("empty").appendChild(a);
             
      }
+
      if (mese == 8 && giorno >= 23 || mese == 9 && giorno <= 22){
          result = ("Vergine");
         document.getElementById("photo").innerHTML="<img src='vergine.png'width=20%>";
